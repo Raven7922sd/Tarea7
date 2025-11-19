@@ -1,0 +1,7 @@
+package com.example.tarea7.dominio.model
+
+data class Usuarios(
+    val usuarioId: Int?,
+    val userName: String,
+    val password: String
+)
