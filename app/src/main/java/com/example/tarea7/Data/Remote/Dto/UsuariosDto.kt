@@ -1,4 +1,7 @@
 package com.example.tarea7.Data.Remote.Dto
 
-class UsuariosDto {
-}
+data class UsuariosDto(
+    val usuarioId: Int?,
+    val userName: String,
+    val password: String
+)
